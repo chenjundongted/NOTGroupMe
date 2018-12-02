@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/myAccount"
+        android:title="My Account"
+        android:icon="@drawable/icon_myaccount"
+
+        />
+
+    <item android:id="@+id/projectGroupMe"
+        android:title="Project GroupMe"
+        android:textSize="50sp"
+        android:textStyle="italic"
+        android:icon="@drawable/icon_groupme"
+        />
+
+    <item android:id="@+id/myInterest"
+        android:title="My Interest"
+        android:icon="@drawable/icon_myinterest"/>
+
+    <item android:id="@+id/contactUs"
+        android:title="Contact Us"
+        android:icon="@drawable/icon_contactus"/>
+
+    <item android:id="@+id/website"
+        android:title="Website"
+        android:icon="@drawable/icon_website"/>
+
+    <item android:id="@+id/logOut"
+        android:title="Log Out"
+        android:icon="@drawable/icon_logout"/>
+</menu>

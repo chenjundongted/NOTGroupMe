@@ -20,7 +20,10 @@
         </activity>
         <activity android:name=".signUpPage" />
         <activity android:name=".signInPage" />
-        <activity android:name=".NavigationPage"></activity>
+        <activity android:name=".NavigationPage" />
+        <activity android:name=".projectGroupMePage" />
+        <activity android:name=".myInterestPage" />
+        <activity android:name=".contactUsPage"></activity>
     </application>
 
 </manifest>

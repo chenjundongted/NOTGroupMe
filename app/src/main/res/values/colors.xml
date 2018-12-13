@@ -6,4 +6,6 @@
     <color name="black">#000000</color>
     <color name="white">#ffffff</color>
     <color name="gray">#6c6c6c</color>
+    <color name="overBackground">#7f333639</color>
+    <color name="overActionBar">#0e0d0e</color>
 </resources>

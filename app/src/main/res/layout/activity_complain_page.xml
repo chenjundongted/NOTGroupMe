@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".complainPage"
+    android:id="@+id/complainPageId"
+    android:background="@drawable/background"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/trans_white80"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="70dp">
+
+
+        <TextView
+            android:id="@+id/toShowEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To:"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:paddingLeft="10sp"
+            />
+
+        <EditText
+            android:id="@+id/toShowEmail2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tedjd001@gmail.com"
+            android:singleLine="true"
+            android:textSize="20dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:id="@+id/toShowSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subject:"
+            android:singleLine="true"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:paddingLeft="10sp"
+            android:layout_marginTop="10sp"
+            />
+
+        <EditText
+            android:id="@+id/toEditSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:inputType=""
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            />
+
+        <EditText
+            android:id="@+id/toEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Type your email here..."
+            android:gravity="start|top"
+            android:textSize="20sp"
+            android:layout_marginLeft="7sp"
+            android:layout_marginRight="7sp"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+            android:lines="10"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sendEmailBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Email"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10sp"
+        android:background="@color/black"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        />
+
+</RelativeLayout>

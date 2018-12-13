@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".groupMePage">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:background="@drawable/trans_white80"
+            android:orientation="vertical"
+            android:layout_marginTop="20sp"
+            >
+
+
+            <TextView
+                android:id="@+id/titleBox1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5sp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5sp"
+                android:drawablePadding="10sp"
+                android:text="CS125 CA FOR SPRING 2019"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:paddingLeft="10sp"
+                android:paddingTop="7sp"
+                android:paddingBottom="7sp"
+                android:freezesText="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/descriptionBox1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5sp"
+                android:drawablePadding="10sp"
+                android:text="Description: "
+                android:paddingLeft="10sp"
+                android:paddingTop="3sp"
+                android:paddingBottom="3sp"
+                android:freezesText="true"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/descriptionTextBox1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5sp"
+                android:drawablePadding="10sp"
+                android:text="Helping incoming CS125 students with their programming related questions."
+                android:paddingLeft="10sp"
+                android:textStyle="bold"
+                android:paddingTop="2sp"
+                android:paddingBottom="5sp"
+                android:freezesText="true"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/contactPersonBox1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5sp"
+                android:drawablePadding="10sp"
+                android:text="Contact Person:"
+                android:paddingLeft="10sp"
+                android:paddingTop="2sp"
+                android:paddingBottom="3sp"
+                android:freezesText="true"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:id="@+id/contactPersonTextBox1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5sp"
+                android:drawablePadding="10sp"
+                android:text="WEBSITE BOT GWA"
+                android:paddingLeft="10sp"
+                android:textStyle="bold"
+                android:paddingTop="2sp"
+                android:paddingBottom="5sp"
+                android:freezesText="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/contactEmailBox1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:drawablePadding="10sp"
+                android:text="Contact Email: "
+                android:paddingLeft="10sp"
+                android:paddingTop="3sp"
+                android:paddingBottom="3sp"
+                android:freezesText="true"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/contactEmailTextBox001"
+                android:background="@color/fbutton_color_transparent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:drawablePadding="1sp"
+                android:text="neverknow@gmail.com"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                android:paddingLeft="10sp"
+                android:freezesText="true"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:background="@drawable/trans_white80"
+                />
+
+            <TextView
+                android:id="@+id/titleBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5sp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5sp"
+                android:drawablePadding="10sp"
+                android:text="Taking care of my really sweet old dog"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:paddingLeft="10sp"
+                android:paddingTop="7sp"
+                android:paddingBottom="7sp"
+                android:freezesText="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/descriptionBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5sp"
+                android:drawablePadding="10sp"
+                android:text="Description: "
+                android:paddingLeft="10sp"
+                android:paddingTop="3sp"
+                android:paddingBottom="3sp"
+                android:freezesText="true"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/descriptionTextBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5sp"
+                android:drawablePadding="10sp"
+                android:text="I need a patient dogsitter. He should be able to communicate with chuchu by using JAVA, PYTHON, and C++"
+                android:paddingLeft="10sp"
+                android:textStyle="bold"
+                android:paddingTop="2sp"
+                android:paddingBottom="5sp"
+                android:freezesText="true"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/contactPersonBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5sp"
+                android:drawablePadding="10sp"
+                android:text="Contact Person:"
+                android:paddingLeft="10sp"
+                android:paddingTop="2sp"
+                android:paddingBottom="3sp"
+                android:freezesText="true"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:id="@+id/contactPersonTextBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5sp"
+                android:drawablePadding="10sp"
+                android:text="XYZXYZ"
+                android:paddingLeft="10sp"
+                android:textStyle="bold"
+                android:paddingTop="2sp"
+                android:paddingBottom="5sp"
+                android:freezesText="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/contactEmailBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:drawablePadding="10sp"
+                android:text="Contact Email: "
+                android:paddingLeft="10sp"
+                android:paddingTop="3sp"
+                android:paddingBottom="3sp"
+                android:freezesText="true"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/contactEmailTextBox002"
+                android:background="@color/fbutton_color_transparent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:drawablePadding="1sp"
+                android:text="youngcutecat@gmail.com"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                android:paddingLeft="10sp"
+                android:freezesText="true"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:background="@drawable/trans_white80"
+                />
+
+            <TextView
+                android:id="@+id/titleBox3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5sp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5sp"
+                android:drawablePadding="10sp"
+                android:text="Project partners for developing an IOS App"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:paddingLeft="10sp"
+                android:paddingTop="7sp"
+                android:paddingBottom="7sp"
+                android:freezesText="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/descriptionBox3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5sp"
+                android:drawablePadding="10sp"
+                android:text="Description: "
+                android:paddingLeft="10sp"
+                android:paddingTop="3sp"
+                android:paddingBottom="3sp"
+                android:freezesText="true"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/descriptionTextBox3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5sp"
+                android:drawablePadding="10sp"
+                android:text="Our project is to develop an IOS App that builds a platform for students and faucuties to promote their projects"
+                android:paddingLeft="10sp"
+                android:textStyle="bold"
+                android:paddingTop="2sp"
+                android:paddingBottom="5sp"
+                android:freezesText="true"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/contactPersonBox3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5sp"
+                android:drawablePadding="10sp"
+                android:text="Contact Person:"
+                android:paddingLeft="10sp"
+                android:paddingTop="2sp"
+                android:paddingBottom="3sp"
+                android:freezesText="true"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:id="@+id/contactPersonTextBox3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5sp"
+                android:drawablePadding="10sp"
+                android:text="Mark Zuckerberg"
+                android:paddingLeft="10sp"
+                android:textStyle="bold"
+                android:paddingTop="2sp"
+                android:paddingBottom="5sp"
+                android:freezesText="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/contactEmailBox3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:drawablePadding="10sp"
+                android:text="Contact Email: "
+                android:paddingLeft="10sp"
+                android:paddingTop="3sp"
+                android:paddingBottom="3sp"
+                android:freezesText="true"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/contactEmailTextBox003"
+                android:background="@color/fbutton_color_transparent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:drawablePadding="1sp"
+                android:text="zuckerbergM@outlook.com"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                android:paddingLeft="10sp"
+                android:freezesText="true"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:background="@drawable/trans_white80"
+                />
+
+            <TextView
+                android:id="@+id/titleBox4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5sp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5sp"
+                android:drawablePadding="10sp"
+                android:text="High-rank partner for LOL"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:paddingLeft="10sp"
+                android:paddingTop="7sp"
+                android:paddingBottom="7sp"
+                android:freezesText="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/descriptionBox4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5sp"
+                android:drawablePadding="10sp"
+                android:text="Description: "
+                android:paddingLeft="10sp"
+                android:paddingTop="3sp"
+                android:paddingBottom="3sp"
+                android:freezesText="true"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/descriptionTextBox4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5sp"
+                android:drawablePadding="10sp"
+                android:text="Seeking for a challenger in LOL to play double-ranked game"
+                android:paddingLeft="10sp"
+                android:textStyle="bold"
+                android:paddingTop="2sp"
+                android:paddingBottom="5sp"
+                android:freezesText="true"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/contactPersonBox4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5sp"
+                android:drawablePadding="10sp"
+                android:text="Contact Person:"
+                android:paddingLeft="10sp"
+                android:paddingTop="2sp"
+                android:paddingBottom="3sp"
+                android:freezesText="true"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:id="@+id/contactPersonTextBox4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5sp"
+                android:drawablePadding="10sp"
+                android:text="Garfield"
+                android:paddingLeft="10sp"
+                android:textStyle="bold"
+                android:paddingTop="2sp"
+                android:paddingBottom="5sp"
+                android:freezesText="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/contactEmailBox4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:drawablePadding="10sp"
+                android:text="Contact Email: "
+                android:paddingLeft="10sp"
+                android:paddingTop="3sp"
+                android:paddingBottom="3sp"
+                android:freezesText="true"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/contactEmailTextBox004"
+                android:background="@color/fbutton_color_transparent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:drawablePadding="1sp"
+                android:text="garfieldlmao@gmail.com"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                android:paddingLeft="10sp"
+                android:freezesText="true"
+                android:textSize="17sp"
+                android:layout_marginBottom="25sp"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+</ScrollView>
